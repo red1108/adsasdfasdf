@@ -1,0 +1,24 @@
+body{
+    background-image: url("https://mcdn.wallpapersafari.com/medium/46/52/EeRryF.jpg");
+}
+table{
+    background-color:white;
+}
+.myhome{
+    border-width:5px;
+    border-color:white;
+    border-style: solid;
+    border-radius:10px;
+    height:200px;
+    width:200px;
+    margin:20% 0% 0% 40%;
+}
+#mythank{
+    border-width:5px;
+    border-color:white;
+    border-style: solid;
+    border-radius:10px;
+    height:250px;
+    width:400px;
+    margin-top:10%;
+}

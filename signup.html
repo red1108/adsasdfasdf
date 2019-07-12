@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="file:///home/campus30/syp007/Desktop/make/grid/app.js"></script>
+    <style>
+        body{
+            background-image: url("http://all4desktop.com/data_images/original/4244272-night.jpg");
+            background-size: cover;
+        }
+        .uu{
+            background-color:rgb(0,0,255,0.5);
+            margin-left:500px;
+            border-radius:50px;
+            box-shadow: 0px 0px 40px 40px rgba(0,0,255,0.5);
+            height:500px;
+            width:550px;
+        }
+        input{
+            margin:10px;
+        }
+        label{
+            color:white;
+            font-size:20px;
+        }
+        h1{
+            color:white;
+            margin-left:60px;
+        }
+        button{
+            border-width:1px;
+            border-color:white;
+            border-radius:3px;
+            color:white;
+            width:150px;
+            height:30px;
+            font-size:20px;
+            background-color:rgba(0,0,255,0.5);
+        }
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="file:///home/campus30/syp007/Desktop/make/grid/index.html" class="navbar-brand">Home</a>
+                </div>
+    
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!--Left-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="file:///home/campus30/syp007/Desktop/make/grid/gallery.html">Gallery</a></li>
+                        <li><a href="file:///home/campus30/syp007/Desktop/make/grid/contact.html">Contact us</a></li>
+                        <li><a href="file:///home/campus30/syp007/Desktop/make/grid/dashboard.html">Dashboard</a></li>
+                    </ul>
+    
+                    <!--Right-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="file:///home/campus30/syp007/Desktop/make/grid/signup.html">Sign Up</a></li>
+                        <li><a href="file:///home/campus30/syp007/Desktop/make/grid/signin.html">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <br><br><br><br><br><br><br><br>
+    <div class="container uu">
+        <h1>Sign up</h1>
+        <form>
+            <table>
+                <tr> 
+                    <td><label for="Name">Your Id</label></td>
+                    <td>
+                        <input id = "Last Name" type="text" placeholder="Last Name" style="width:300px">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="EMail">Your E-mail</label></th>
+                    <td align="left"><input id = "EMail" type="text" placeholder="ex: myname@example.com" style="width:300px"></td>
+                </tr>
+                <tr>
+                    <td><label for="Name">Password</label></td>
+                    <td>
+                        <input type="password" style="width:300px">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Name">Repeat</label></td>
+                    <td>
+                        <input type="password" style="width:300px">
+                    </td>
+                </tr>
+                <tr>
+                <tr>
+                    <td><label for="phone">Phone</label></td>
+                    <td>
+                        <input type="text" placeholder="###" style="width:83px">
+                        <input type="text" placeholder="###" style="width:83px">
+                        <input type="text" placeholder="####" style="width:84px">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Name">Message</label></td>
+                    <td><input type="text" style="height:100px; width:300px"></td>
+                </tr>
+                <tr>
+                    <th><a href="thank.html" class="btn btn-default">Sign up</a></th>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
